@@ -9,7 +9,7 @@ $xpdo_meta_map['TicketAuthorAction']= array (
     'id' => NULL,
     'action' => NULL,
     'owner' => 0,
-    'rating' => 0,
+    'rating' => 0.0,
     'multiplier' => 1,
     'ticket' => 0,
     'section' => 0,
@@ -52,7 +52,7 @@ $xpdo_meta_map['TicketAuthorAction']= array (
       'precision' => '12,2',
       'phptype' => 'float',
       'null' => true,
-      'default' => 0,
+      'default' => 0.0,
     ),
     'multiplier' => 
     array (
